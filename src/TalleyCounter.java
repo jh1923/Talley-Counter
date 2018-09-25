@@ -15,15 +15,33 @@ public class TalleyCounter
 		count = 0;
 	}
 	
-	//Constructor: starting at any number of choice
+	//starting at any number of choice
 	public TalleyCounter(int startNum)
 	{
 		count = startNum;
 	}
 	
-	//Constructor: clicker
+	//clicker
 	public void click()
 	{
-		count = count + 1;
+		count++;
+	}
+	
+	//reset
+	public void reset()
+	{
+		count = 0;
+	}
+	
+	//get count
+	public void getCount()
+	{
+		System.out.print(count);;
+	}
+	
+	//unclick
+	public void unclick()
+	{
+		count--;
 	}
 }
