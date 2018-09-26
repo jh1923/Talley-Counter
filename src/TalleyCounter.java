@@ -36,7 +36,7 @@ public class TalleyCounter
 	//get count
 	public void getCount()
 	{
-		System.out.print(count);;
+		System.out.print("The count is" + count);
 	}
 	
 	//unclick
